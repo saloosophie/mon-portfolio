@@ -1,0 +1,31 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Liste des compétences */
+  .collection {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .collection-item {
+    display: flex; /* Utilisation de flexbox pour aligner l'icône et le texte */
+    align-items: center; /* Alignement vertical centré */
+    padding: 10px;
+    border: 1px solid #f1f1f1; /* Bordure discrète */
+    margin-bottom: 10px; /* Espacement entre les éléments */
+    border-radius: 8px; /* Coins arrondis */
+    background-color: #ffffff;
+  }
+  
+  /* Style de l'icône */
+  .icon {
+    width: 30px; /* Taille de l'icône */
+    height: 30px;
+    margin-right: 15px; /* Espacement entre l'icône et le texte */
+  }
+  
+ 
+  

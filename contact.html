@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <!-- Google Fonts (Roboto et Poppins) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Icône de la page -->
+  <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/roles-computer-it/128/front-end_developer-2-512.png" type="image/x-icon">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      font-family: 'Times New Roman', Times, serif;
+    h1, h2 {
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 600;
+      color: black;
+    }
+    .page-footer {
+      margin-top: auto;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .content {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    /* Styling for social media icons */
+    .social-icons a {
+      color: #ffffff;
+      margin-right: 20px;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <!-- Navbar -->
+    <nav class="nav-extended">
+      <div class="nav-wrapper blue darken-4">
+        <a href="index.html" class="brand-logo center">Mon Portfolio</a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="resume.html">Résumé</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <div class="container my-5">
+      <h1 class="center-align mb-4">Contactez-moi</h1>
+      <form action="#">
+        <div class="input-field">
+          <input type="text" id="name" required>
+          <label for="name">Nom</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email" required>
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <textarea id="message" class="materialize-textarea" required></textarea>
+          <label for="message">Votre message</label>
+        </div>
+        <button type="submit" class="btn blue darken-3">Envoyer</button>
+      </form>
+
+      <!-- Social Media Icons -->
+      <div class="social-icons center-align">
+        <a href="https://www.linkedin.com/in/salem-hamidatou-9b155631b/" target="_blank" class="btn-floating btn-large waves-effect waves-light blue darken-3">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/saloosophie" target="_blank" class="btn-floating btn-large waves-effect waves-light grey darken-3">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer blue darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <p class="center-align white-text">&copy; 2024 Salem HAMIDATOU.</p>
+      </div>
+    </div>
+  </footer>
+  <style>
+    .content {
+      min-height: 100%; /* Occupe toute la hauteur disponible */
+      display: flex;
+      flex-direction: column;
+    }
+    footer {
+      margin-top: auto; /* Cela pousse le footer vers le bas */
+    }
+  </style>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
